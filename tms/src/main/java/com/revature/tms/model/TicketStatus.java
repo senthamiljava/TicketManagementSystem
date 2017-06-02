@@ -21,5 +21,7 @@ public class TicketStatus {
 	private String name;
 	@Column(name = "isActive")
 	private Integer isActive;
+	@Column(name = "code")
+	private String code;
 
 }
